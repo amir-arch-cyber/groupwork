@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CreateX - Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
 </head>
-<body>
-    <div class="relative min-h-screen bg-cover bg-center bg-no-repeat" 
+<body class="bg-[#0f0e17] antialiased overflow-x-hidden">
+
+  <div class="relative min-h-screen bg-cover bg-center bg-no-repeat overflow-x-hidden" 
        style="background-image: url('./imgbenj/1.png');">
     
     <header class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
@@ -15,7 +22,6 @@
         <div class="text-white text-2xl font-black tracking-wider flex items-center">
           CREATE<span class="text-[#7366F0]">X</span>
         </div>
-        
         <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-gray-300">
           <a href="#" class="text-white flex items-center gap-1 hover:text-white transition">
             Services
@@ -29,7 +35,6 @@
           <a href="#" class="hover:text-white transition">Contacts</a>
         </nav>
       </div>
-
       <div>
         <button class="bg-[#7366F0] hover:bg-[#5f52dd] text-white text-sm font-bold px-7 py-3.5 rounded-md transition shadow-lg shadow-[#7366F0]/20">
           Talk to a human
@@ -38,7 +43,6 @@
     </header>
 
     <main class="max-w-4xl mx-auto px-6 pt-20 pb-32 flex flex-col items-center text-center text-white">
-      
       <div class="flex items-center space-x-2 text-xs font-medium text-gray-400 mb-8 tracking-wide">
         <svg class="w-3.5 h-3.5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
@@ -47,19 +51,15 @@
         <span class="text-gray-300">Services</span>
       </div>
 
-      <h1 class="text-5xl md:text-6xl font-black tracking-tight mb-6">
-        Our services
-      </h1>
-
-      <p class="text-gray-400 text-base md:text-lg leading-relaxed max-w-3xl mb-12 font-normal">
-        We offer more than services. Our agency provides solutions to your top-priority concerns, involving customer targeting, email performance and sales growth. If there is no existing solution readily available, we create one, specifically to suit your business.
+      <h1 class="text-5xl md:text-6xl font-black tracking-tight mb-6">Our services</h1>
+      <p class="text-gray-400 text-base md:text-lg leading-relaxed max-w-3xl mb-12">
+        We offer more than services. Our agency provides solutions to your top-priority concerns, involving customer targeting, email performance and sales growth.
       </p>
 
       <div class="flex flex-col sm:flex-row items-center justify-center gap-10">
         <button class="border border-white/30 hover:border-white text-white font-bold text-sm tracking-wide px-11 py-4 rounded-md transition duration-200">
           Start now
         </button>
-
         <div class="flex items-center gap-3.5 text-left">
           <div class="p-3 border border-white/10 rounded-xl bg-white/5 text-[#7366F0]">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -68,78 +68,89 @@
           </div>
           <div>
             <div class="text-xs font-medium text-gray-400 tracking-wider uppercase mb-0.5">Call us</div>
-            <a href="tel:4055550128" class="text-white text-base font-bold hover:text-[#7366F0] transition">
-              (405) 555-0128
-            </a>
+            <a href="tel:4055550128" class="text-white text-base font-bold hover:text-[#7366F0] transition">(405) 555-0128</a>
           </div>
         </div>
       </div>
-
     </main>
   </div>
-  <div class="max-w-7xl mx-auto px-6 py-24 space-y-32 md:space-y-44">
 
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
-      
-      <div class="space-y-6 max-w-xl">
-        <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-[#1e212c]">
-          Social Media Marketing
-        </h2>
-        <p class="text-gray-500 text-base md:text-lg leading-relaxed">
-          Eleifend orci massa et facilisis orci feugiat ac. Congue in ut lacus, turpis accumsan gravida. Aliquet mattis dignissim massa sociis a, id bibendum. Egestas lorem eros, mi cras amet, vel eget molestie. Turpis enim arcu, amet donec massa pellentesque nulla duis. Arcu dictum metus sed purus senectus faucibus eget elementum pretium.
-        </p>
-        <div class="flex flex-wrap items-center gap-4 pt-4">
-          <a href="#" class="inline-block px-6 py-3 border border-[#7366F0] text-[#7366F0] font-bold text-sm rounded-md hover:bg-[#7366F0]/5 transition duration-200">
-            Learn more
-          </a>
-          <a href="#" class="inline-block px-6 py-3 bg-[#7366F0] hover:bg-[#5f52dd] text-white font-bold text-sm rounded-md transition duration-200 shadow-md shadow-[#7366F0]/10">
-            Try SEO toolkit
-          </a>
+
+  <div class="bg-white text-[#1e212c] overflow-x-hidden">
+    <div class="max-w-7xl mx-auto px-6 py-24 space-y-32 md:space-y-44">
+
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6 max-w-xl">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-[#1e212c]">Social Media Marketing</h2>
+          <p class="text-gray-500 leading-relaxed">Eleifend orci massa et facilisis orci feugiat ac. Congue in ut lacus, turpis accumsan gravida. Aliquet mattis dignissim massa sociis a, id bibendum.</p>
+          <div class="flex gap-4 pt-2">
+            <a href="#" class="px-6 py-3 border border-[#7366F0] text-[#7366F0] font-bold text-sm rounded-md hover:bg-[#7366F0]/5 transition">Learn more</a>
+            <a href="#" class="px-6 py-3 bg-[#7366F0] hover:bg-[#5f52dd] text-white font-bold text-sm rounded-md transition shadow-md shadow-[#7366F0]/10">Try SEO toolkit</a>
+          </div>
         </div>
-      </div>
-
-      <div class="relative flex justify-center items-center">
-        <div class="absolute inset-0 bg-gradient-to-tr from-gray-100 to-gray-50/50 rounded-[40px] transform rotate-3 scale-105 -z-10 blur-sm"></div>
-        
-        <img 
-          src="./imgbenj/2.png" 
-          alt="Social Media Marketing Dashboard Mockup" 
-          class="w-full h-auto object-contain rounded-2xl drop-shadow-xl"
-        />
-      </div>
-    </section>
-
-
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
-      
-      <div class="order-2 md:order-1 relative flex justify-center items-center">
-        <div class="absolute inset-0 bg-gradient-to-bl from-gray-100 to-gray-50/50 rounded-[40px] transform -rotate-3 scale-105 -z-10 blur-sm"></div>
-        
-        <img 
-          src="./imgbenj/3.png" 
-          alt="Search Engine Optimization Analytics Mockup" 
-          class="w-full h-auto object-contain rounded-2xl drop-shadow-xl"
-        />
-      </div>
-
-      <div class="order-1 md:order-2 space-y-6 max-w-xl">
-        <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-[#1e212c]">
-          Search Engine Optimization
-        </h2>
-        <p class="text-gray-500 text-base md:text-lg leading-relaxed">
-          Elementum ipsum lorem tortor morbi quis turpis pellentesque ultrices aenean. Lacus sit viverra et egestas nisl vitae lacus, eget. Eu pulvinar duis in posuere non adipiscing. Nunc, tristique viverra tincidunt nec proin tempus egestas massa. Quis velit nunc nisl sem in tristique.
-        </p>
-        <div class="flex flex-wrap items-center gap-4 pt-4">
-          <a href="#" class="inline-block px-6 py-3 border border-[#7366F0] text-[#7366F0] font-bold text-sm rounded-md hover:bg-[#7366F0]/5 transition duration-200">
-            Learn more
-          </a>
-          <a href="#" class="inline-block px-6 py-3 bg-[#7366F0] hover:bg-[#5f52dd] text-white font-bold text-sm rounded-md transition duration-200 shadow-md shadow-[#7366F0]/10">
-            Try SEO toolkit
-          </a>
+        <div class="relative w-full max-w-xl mx-auto">
+          <img src="./imgbenj/2.png" alt="Dashboard Mockup" class="w-full h-auto object-contain rounded-2xl drop-shadow-xl"/>
         </div>
-      </div>
-    </section>
+      </section>
 
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="order-2 md:order-1 relative w-full max-w-xl mx-auto">
+          <img src="./imgbenj/3.png" alt="Analytics Mockup" class="w-full h-auto object-contain rounded-2xl drop-shadow-xl"/>
+        </div>
+        <div class="order-1 md:order-2 space-y-6 max-w-xl">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-[#1e212c]">Search Engine Optimization</h2>
+          <p class="text-gray-500 leading-relaxed">Elementum ipsum lorem tortor morbi quis turpis pellentesque ultrices aenean. Lacus sit viverra et egestas nisl vitae lacus, eget.</p>
+          <div class="flex gap-4 pt-2">
+            <a href="#" class="px-6 py-3 border border-[#7366F0] text-[#7366F0] font-bold text-sm rounded-md hover:bg-[#7366F0]/5 transition">Learn more</a>
+            <a href="#" class="px-6 py-3 bg-[#7366F0] hover:bg-[#5f52dd] text-white font-bold text-sm rounded-md transition">Try SEO toolkit</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6 max-w-xl">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-[#1e212c]">Research Service</h2>
+          <p class="text-gray-500 leading-relaxed">Volutpat tellus mauris sit sit. Posuere ut sit vestibulum amet viverra in. Est nulla lectus purus tincidunt massa tortor. Hendrerit vulputate.</p>
+          <div class="flex gap-4 pt-2">
+            <a href="#" class="px-6 py-3 border border-[#7366F0] text-[#7366F0] font-bold text-sm rounded-md hover:bg-[#7366F0]/5 transition">Learn more</a>
+            <a href="#" class="px-6 py-3 bg-[#7366F0] hover:bg-[#5f52dd] text-white font-bold text-sm rounded-md transition">Try SEO toolkit</a>
+          </div>
+        </div>
+        <div class="relative w-full max-w-xl mx-auto">
+          <img src="./imgbenj/4.png" alt="Research Mockup" class="w-full h-auto object-contain rounded-2xl drop-shadow-xl"/>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="order-2 md:order-1 relative w-full max-w-xl mx-auto">
+          <img src="./imgbenj/5.png" alt="Content Mockup" class="w-full h-auto object-contain rounded-2xl drop-shadow-xl"/>
+        </div>
+        <div class="order-1 md:order-2 space-y-6 max-w-xl">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-[#1e212c]">Content & PR Service</h2>
+          <p class="text-gray-500 leading-relaxed">Consequat pharetra elit posuere fringilla luctus sit. Curabitur accumsan fermentum magna amet. Sed nec amet posuere tellus pellentesque vitae.</p>
+          <div class="flex gap-4 pt-2">
+            <a href="#" class="px-6 py-3 border border-[#7366F0] text-[#7366F0] font-bold text-sm rounded-md hover:bg-[#7366F0]/5 transition">Learn more</a>
+            <a href="#" class="px-6 py-3 bg-[#7366F0] hover:bg-[#5f52dd] text-white font-bold text-sm rounded-md transition">Try SEO toolkit</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6 max-w-xl">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-[#1e212c]">Paid Traffic Management</h2>
+          <p class="text-gray-500 leading-relaxed">Tortor vitae orci hendrerit lobortis eu. Metus aliquam sem tellus ut fringilla purus nisl, consectetur netus. Velit ac feugiat ut mattis.</p>
+          <div class="flex gap-4 pt-2">
+            <a href="#" class="px-6 py-3 border border-[#7366F0] text-[#7366F0] font-bold text-sm rounded-md hover:bg-[#7366F0]/5 transition">Learn more</a>
+            <a href="#" class="px-6 py-3 bg-[#7366F0] hover:bg-[#5f52dd] text-white font-bold text-sm rounded-md transition">Try SEO toolkit</a>
+          </div>
+        </div>
+        <div class="relative w-full max-w-xl mx-auto">
+          <img src="./imgbenj/6.png" alt="Traffic Mockup" class="w-full h-auto object-contain rounded-2xl drop-shadow-xl"/>
+        </div>
+      </section>
+
+    </div>
   </div>
+
 </body>
 </html>
